@@ -1,5 +1,6 @@
 # encoding: utf-8
-require File.expand_path('../lib/will_paginate/version', __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
+require 'will_paginate/version'
 
 Gem::Specification.new do |gem|
   gem.name    = 'will_paginate'
